@@ -12,8 +12,8 @@ TypeScript from previous iterations of COMP110: https://comp110.com/topics
 (TypeScript, as I understand it, is a more strongly typed version of JavaScript. The webpage includes how to incorporate TypeScript with HTML and CSS, and more resources on HTML/CSS/web development!)
 
 ## Running the example news website
-To run locally, first clone this repository by following the steps in [https://21s.comp110.com/resources/setup/workspace.html#setup-your-workspace-in-visual-studio-code],
-substituting the github link with [https://github.com/christineiym/python-api-sidequest.git]. 
+To run locally, first clone this repository by following the steps in https://21s.comp110.com/resources/setup/workspace.html#setup-your-workspace-in-visual-studio-code,
+substituting the github link with https://github.com/christineiym/python-api-sidequest.git. 
 
 
 Then, open your terminal and install the requirements in requirements.txt by running
@@ -31,6 +31,6 @@ Now, open a new terminal and write the following:
 Finally, click the link!
 
 ### Notes:
-- For security/legal purposes, I ask that each of us have our own (free) newsAPI key (which can be obtained at [https://newsapi.org/]), which can be inserted in \__init\__.py to let the website work.
+- For security/legal purposes, I ask that each of us have our own (free) newsAPI key (which can be obtained at https://newsapi.org/), which can be inserted in \__init\__.py to let the website work.
 - Testing a website is sometimes like running a Jupyter Notebook -- to see your changes, you may have to close and open the website. Often, you may also just need to open an entirely new browser or an incognito window. This is because your computer caches information on the website to let it load faster, with the result that it may not be updated as quickly as you like.
 - Feel free to copy the code into your sandbox folder and make edits to get a feel for how it works! However, please do not deploy the code -- it may cause problems with copyright laws. If you do accidentally deploy code on Heroku, you can either delete the app or you can take it down for maintenance (these options are found at the bottom of the Settings page for your project).
