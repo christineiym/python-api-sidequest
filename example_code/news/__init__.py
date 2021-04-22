@@ -17,7 +17,8 @@ from flask import render_template
 
 DATE_FORMAT_LENGTH: int = 10
 TIME_FORMAT_LENGTH: int = 8
-SECRET_KEY_NEWSAPI = "ea435543f4fe4028bbad0ca1ba296041"
+SECRET_KEY_NEWSAPI = "insert key as string here"
+# In actual deployment, we would use the following:
 # SECRET_KEY_NEWSAPI = os.environ['SECRET_KEY_NEWSAPI']
 
 
