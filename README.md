@@ -31,6 +31,6 @@ Now, open a new terminal and write the following:
 Finally, click the link!
 
 ### Notes:
-- For security/legal purposes, I ask that each of us have our own (free) newsAPI key (which can be obtained at https://newsapi.org/), which can be inserted in \__init\__.py to let the website work.
+- For security/legal purposes, I ask that each of us have our own (free) newsAPI key (which can be obtained at https://newsapi.org/), which can be inserted in \_\_init\_\_.py to let the website work.
 - Testing a website is sometimes like running a Jupyter Notebook -- to see your changes, you may have to close and open the website. Often, you may also just need to open an entirely new browser or an incognito window. This is because your computer caches information on the website to let it load faster, with the result that it may not be updated as quickly as you like.
 - Feel free to copy the code into your sandbox folder and make edits to get a feel for how it works! However, please do not deploy the code -- it may cause problems with copyright laws. If you do accidentally deploy code on Heroku, you can either delete the app or you can take it down for maintenance (these options are found at the bottom of the Settings page for your project).
