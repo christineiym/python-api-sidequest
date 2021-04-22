@@ -6,7 +6,7 @@ https://opentdb.com/api_config.php
 ## Helpful Links to learn Web Development
 - Flask: https://flask.palletsprojects.com/en/1.1.x/
 - HTML: https://www.w3schools.com/html/ 
-    * Things like {} are part of the Jinja2 template language, which essentially appears to extend the capabilities of HTML. 
+    * Things like {} are part of the Jinja template language that works with HTML (more info on that here: https://jinja.palletsprojects.com/en/2.11.x/templates/. 
 - CSS: https://www.w3schools.com/css/default.asp
 TypeScript from previous iterations of COMP110: https://comp110.com/topics
 (TypeScript, as I understand it, is a more strongly typed version of JavaScript. The webpage includes how to incorporate TypeScript with HTML and CSS, and more resources on HTML/CSS/web development!)
