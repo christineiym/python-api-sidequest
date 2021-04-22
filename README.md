@@ -1,12 +1,9 @@
 # python-api-sidequest
 
-## Example code 
-This is now in example_code with more comments and information! 
-
-## API
+## API We Will Use
 https://opentdb.com/api_config.php
 
-## Helpful Links
+## Helpful Links to learn Web Development
 - Flask: https://flask.palletsprojects.com/en/1.1.x/
 - HTML: https://www.w3schools.com/html/ 
     * Things like {} are part of the Jinja2 template language, which essentially appears to extend the capabilities of HTML. 
