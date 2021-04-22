@@ -1,0 +1,12 @@
+https://flask.palletsprojects.com/en/1.1.x/tutorial/factory/
+https://github.com/pallets/flask/blob/1.1.2/examples/tutorial/flaskr/templates/base.html
+https://github.com/christineiym/newEST
+https://newsapi.org/docs/endpoints/everything
+https://pythonbasics.org/flask-template-data/
+https://flask.palletsprojects.com/en/1.1.x/tutorial/views/
+https://www.w3schools.com/css/css_howto.asp
+https://stackoverflow.com/questions/35914673/python-ternary-in-jinja2-gives-templatesyntaxerror-tag-name-expected
+https://stackoverflow.com/questions/52205558/jinja2-exceptions-templatesyntaxerror-expected-token-end-of-print-statement
+https://teamtreehouse.com/community/jinja2exceptionstemplatesyntaxerror-expected-token-end-of-print-statement-got-currentuser
+
+https://jinja.palletsprojects.com/en/master/templates/#builtin-filters

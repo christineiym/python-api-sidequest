@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Unofficial UNC News Articles</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- A favicon is the icon that displays at the top of a tab for the website. -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  </head>
+  <body>
+    <h1><a href="{{ url_for('home') }}">Unofficial UNC News</a></h1>
+    <h2><i>Bringing you news about UNC.</i></h2>
+    
+    <!-- Creating a grid to ensure proper sizing and placement of elements. -->
+    <div class="grid-container">
+      {% for headline, url, source, author, date, time, description, image in mylist %}
+      <div class="image"><img class="smaller" src="{{image}}" alt="" width="300" height="300"></div>
+      <div class="main">
+        <h3><a href="{{url}}">{{headline}}</a></h3>
+        <p> By {{author}}, {{source}}; published {{date}} at {{time}} </p>
+        <p> {{description}} </p>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

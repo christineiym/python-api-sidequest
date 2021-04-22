@@ -1,0 +1,104 @@
+/* Creating a grid so the text/images automatically resize. */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto; /* 6 columns are made. */
+    grid-gap: 5px;
+    grid-row: span;
+}
+
+/* Positions images associated with articles on the left. */
+.image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/* Positions the text on the right. */
+.main {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    background: darkslategray;
+}
+
+/* Original size of image returned by API. */
+img.original {
+    max-height: auto;
+    max-width: auto;
+}
+
+/* Resizes image. */
+img.smaller {
+    size: contain;
+}
+
+/* Sets the font. */
+html {
+    font-family: "Helvetica", sans-serif;
+}
+
+/* Style of the main header. */
+h1 {
+    background: purple;
+    background-attachment: fixed;
+    color: white;
+    text-align: left;
+    column-span: all;
+    width: 100%;
+    font-family: Impact;
+    padding: 5%;
+}
+
+/* Style of the secondary header. */
+h2 {
+    background: darkslategrey;
+    background-attachment: fixed;
+    color: white;
+    text-align: left;
+    column-span: all;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 1%;
+}
+
+/* Overall style of link text.
+TODO: verify accuracy of information on links */
+li p {
+    color: black;
+    text-align: left;
+    border: medium solid white;
+    border-radius: 5px;
+    background-color: darkslategrey;
+}
+
+/* Style of a link that is visited. */
+li a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+/* Style of a link when the cursor is hovered over it or clicking it. */
+li a:hover, a:active {
+    background-color: blue;
+    color: white;
+  }
+
+/* Style of a division. */
+div {
+    padding: 1%;
+    margin: auto;
+}
+
+/* Style of the main text and background. */
+body {
+    background: black url("images/unc_sports.jpeg");
+    color: white;
+    image-rendering: auto;
+    padding: 0%;
+    font-family: sans-serif;
+    font-size: 18px;
+    column-span: all;
+}
