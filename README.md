@@ -2,6 +2,7 @@
 
 ## API We Will Use
 https://opentdb.com/api_config.php
+Note: if documentation is not that great, we should not feel a pressure to use it.
 
 ## Helpful Links to learn Web Development
 - Flask: https://flask.palletsprojects.com/en/1.1.x/
