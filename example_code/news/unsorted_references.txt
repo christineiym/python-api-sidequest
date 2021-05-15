@@ -10,3 +10,11 @@ https://stackoverflow.com/questions/52205558/jinja2-exceptions-templatesyntaxerr
 https://teamtreehouse.com/community/jinja2exceptionstemplatesyntaxerror-expected-token-end-of-print-statement-got-currentuser
 
 https://jinja.palletsprojects.com/en/master/templates/#builtin-filters
+
+# Info on APIs, and Possible APIs
+https://dev.to/alanjc/5-simple-to-use-apis-for-beginners-2e0n
+https://github.com/public-apis/public-apis
+https://heelium.web.unc.edu/documentation/shortcodes/google-map/
+https://towardsdatascience.com/python-and-google-apis-bd9b5a861edd
+https://snipcart.com/blog/integrating-apis-introduction 
+https://github.com/project-open-data/csv-to-api
