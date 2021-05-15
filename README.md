@@ -22,7 +22,9 @@ We will take small steps first - so no APIs just yet!
 - CSS: https://www.w3schools.com/css/default.asp
 - TypeScript from previous iterations of COMP110: https://comp110.com/topics  (TypeScript, as I understand it, is a more strongly typed version of JavaScript. The webpage includes how to incorporate TypeScript with HTML and CSS, and more resources on HTML/CSS/web development!)
 
-## Running the example news website (for learning purposes; a similar process may be followed to run the example product, whose steps to run are included in the docstring.)
+## Running the example news website 
+(For learning purposes; a similar process may be followed to run the example product, whose steps to run are included in the docstring.)
+
 To run locally, first clone this repository by following steps 1 - 7 in https://21s.comp110.com/resources/setup/workspace.html#setup-your-workspace-in-visual-studio-code,
 substituting the github link with https://github.com/christineiym/python-api-sidequest.git. 
 
